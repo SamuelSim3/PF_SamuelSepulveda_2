@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/style.css">
+        <title>Juegos</title>
+        <style>
+            /* Botón */
+            .boton {
+        background-color: #14A69C;
+        color: #fff;
+        border: 1px dashed #fff;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor:pointer;
+        align-self: flex-start;
+        transition: background-color 0.3s, border-color 0.3s;
+    }
+        .boton:hover {
+        color:white;
+        background-color: #0000ff;
+        border-color: #ccc;
+    }
+    
+            </style>
+    </head>
+
+    <!--Musica-->
+    <audio autoplay>
+        <source src="Sounds/Great_Fairy_Fountain.mp3" type="audio/mpeg">
+        <!--Suena inmediatamente el audio-->
+      </audio>
+
+    <body> <!--Cuerpo de la pagina-->
+        <header id="header">
+            <nav id="nav">
+                <a href="0index.html"> <img class="img_logo" src="Icons/Triforce1.webp" alt="Ícono Logo principal"> </a>
+                <img class="img_Banner1" src="Images/juegosBaner.png" alt="Banner Juegos">
+                <ul class="boton"> <li><a href="0index.html">Inicio</a></li> </ul>
+                <ul class="boton"> <li><a href="1Juegos.html">Juegos</a></li> </ul>
+                <ul class="boton"> <li><a href="2Fondos.html">Fondos</a></li> </ul>
+                <ul class="boton"> <li><a href="3Personajes.html">Personajes</a></li>  </ul>
+                <ul class="boton"> <li><a href="4Contacto.html">Contacto</a></li>  </ul>
+            </nav>
+        </header>
+
+        <!--ESTRUCTURA #2 = CONTENIDO-->
+        <main id="main">
+            <h1 class="animate__animated animate__flipInX">Juegos y Cronología</h1>
+            <img class="img_Juegos" src="Images/cronologia_TLOZ.jpg" alt="Imagen Juegos">
+        </main>
+
+        <!--ESTRUCTURA #3 = PIÉ DE PÁGINA-->
+        <footer id="footer">
+            <nav id="nav_footer">
+            </nav>
+            <section class="footer_logo">
+                <img src="Icons/TriforceGold.webp" alt="Ícono Logo pié">
+            </section>
+            
+            <section class="footer_links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="1Juegos.html">Juegos</a></li>
+                <li><a href="2Fondos.html">Fondos</a></li>
+                <li><a href="3Personajes.html">Personajes</a></li>
+                <li><a href="4Contacto.html">Contacto</a></li>
+        </section>
+
+        <section class="footer_redes">
+            <a class="footer-redes_facebook" href="https://www.facebook.com/?locale=es_LA"><i class="fa-brands fa-facebook-f"></i></a>
+            <a class="footer-redes_youtube" href="https://m.youtube.com/?hl=es"><i class="fa-brands fa-youtube"></i></a>
+            <a class="footer-redes_twitter" href="https://twitter.com/?lang=es"><i class="fa-brands fa-x-twitter"></i></a>
+
+        </section>
+        
+    </footer>
+</body>
+</html>
